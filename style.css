@@ -97,11 +97,16 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem 1rem;
+    padding: 0 1rem;
     background-color: var(--color-negro);
     width: 100%;
     position: fixed;
     z-index: 2;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
 }
 
 .logo img {
@@ -281,7 +286,7 @@ section {
 }
 
 .nosotros-texto {
-    margin: 1.5rem;
+    padding: 1.5rem;
     font-size: 1rem;
     color: #fff;
     opacity: 0; /* Inicialmente oculto */
@@ -398,7 +403,7 @@ section {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 0 4rem;
+    padding: 0 1rem;
     transform: translateY(100%);
     transition: .5 ease;
 }
@@ -408,15 +413,16 @@ section {
 }
 
 .servicios-layer h4 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: black;
 }
 
 .servicios-layer p {
-    font-size: 1rem;
+    font-size: .8rem;
     margin: .3rem 0 1rem;
     color: black; 
     font-weight: bold;
+    text-align: justify;
 }
 
 .servicios-layer a {
@@ -429,6 +435,7 @@ section {
     border: 5px solid --color-negro;
     border-radius: 10px;
     font-weight:bold;
+    font-size: .8rem;
 }
 
 .servicios-layer a:hover{
