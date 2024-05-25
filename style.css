@@ -276,7 +276,7 @@ section {
     margin: auto auto;
 }
 
-.titulo {
+.servicios-container .titulo {
     font-size: 2.6rem;
     margin-bottom: 1%;
     opacity: 0; /* Inicialmente oculto */
