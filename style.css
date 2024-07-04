@@ -281,6 +281,7 @@ section {
     margin-bottom: 2.2rem;
     opacity: 0;
     /* Inicialmente oculto */
+    /*holaaaaa*/
     animation-fill-mode: both;
     animation: fadeInLeft 1s ease forwards
 }
