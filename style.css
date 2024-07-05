@@ -452,15 +452,22 @@ section {
 /* INICIO SECCION NOVEDADES */
 
 #novedades {
-    position: relative;
+    background-image: url(./img/novedadesimg\ \(1\).png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#novedades {
+    /* position: relative;
     width: 100%;
-    border-radius: 8px;
+    border-radius: 8px; */
 }
 
 #novedades .especialista-img {
-    width: 100%;
+    /* width: 100%;
     height: auto;
-    display: block;
+    display: block; */
 }
 
 #novedades .text {
@@ -485,7 +492,7 @@ section {
     top: 10%;
 }
 
-#novedades .button {
+#novedades .buttons {
     display: grid;
     justify-content: right;
     gap: 50px;
