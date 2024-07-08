@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dr+Sugiyama&family=Noto+Sans+Khojki&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+:root {
+    --color-negro: black;
+    --color-amarillo: #f8b208;
+    --color-blanco: azure;
+    --fondo-uno: rgba(0, 0, 0, 0.6);
+    --blur-uno: rgba(255, 255, 255, 0.10);
+    --blur-dos: #33383b;
+}
+
+
+/* INICIO AVANCE DE OBRA */
+
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url(img/avanceobradesimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slider{
+    position: relative;
+    width: 60%;
+}
+
+.imagenes{
+    display: flex;
+    width: 100%;
+}
+.imagenes img{
+height: 400px;
+width: 100%;
+
+}
+/* FIN  AVANCE DE OBRA */

@@ -459,15 +459,15 @@ section {
 }
 
 #novedades {
-    /* position: relative;
+    position: relative;
     width: 100%;
-    border-radius: 8px; */
+    border-radius: 8px; 
 }
 
 #novedades .especialista-img {
-    /* width: 100%;
+    width: 100%;
     height: auto;
-    display: block; */
+    display: block; 
 }
 
 #novedades .text {
