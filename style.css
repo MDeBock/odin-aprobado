@@ -100,7 +100,7 @@
     padding: 0 1rem;
     background-color: var(--color-negro);
     width: 100%;
-    position: fixed;
+    /* position: fixed; */
     z-index: 2;
 }
 
@@ -181,7 +181,6 @@ section {
 
 .titulo {
     font-size: 2rem;
-    margin: 1.8rem;
     text-align: center;
 }
 
@@ -268,15 +267,19 @@ section {
 }
 
 .figura img {
-    width: 50%;
-
+    width: 70%;
 }
 
 .nostros-content {
     margin: auto auto;
 }
 
-.servicios-container .titulo {
+.nosotros_header{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.nosotros-container .titulo {
     font-size: 2.6rem;
     margin-bottom: 2.2rem;
     opacity: 0;
@@ -288,7 +291,6 @@ section {
 
 .nosotros-texto {
     padding: 1.5rem;
-    font-size: 1rem;
     color: #fff;
     opacity: 0;
     /* Inicialmente oculto */
@@ -299,12 +301,11 @@ section {
 
 
 .nosotros-img img {
-    width: 10%;
+    width: 20%;
     top: 0;
     right: 0;
     float: right;
-    margin-right: 15px;
-    margin-top: -10%;
+    padding: 5px;
     opacity: 0;
     /* Inicialmente oculto */
     animation-fill-mode: both;
@@ -359,6 +360,7 @@ section {
 
 /* INICIO SECCION SERVICIOS */
 
+
 .servicios-container {
     background-image: url(./img/fondo\ Nservicios.png);
     background-repeat: no-repeat;
@@ -370,6 +372,7 @@ section {
     align-items: center;
     justify-content: center;
     text-align: center;
+    min-height: 100vh;
 }
 
 .servicios-content {
@@ -453,20 +456,21 @@ section {
 
 #novedades {
     background-image: url(./img/novedadesimg\ \(1\).png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-repeat: no-repeat;    
     background-size: cover;
 }
 
 #novedades {
     position: relative;
+    position: relative;
     width: 100%;
-    border-radius: 8px; 
 }
 
 #novedades .especialista-img {
     width: 100%;
+    width: 100%;
     height: auto;
+    display: block;
     display: block; 
 }
 
