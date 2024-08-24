@@ -298,8 +298,6 @@ section {
     animation: fadeInLeft 1s ease forwards
 }
 
-
-
 .nosotros-img img {
     width: 20%;
     top: 0;
@@ -460,21 +458,57 @@ section {
     background-size: cover;
 }
 
-#novedades {
-    position: relative;
-    position: relative;
-    width: 100%;
+.novedades-conteiner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 3rem;
 }
 
-#novedades .especialista-img {
+.info{
+    padding: 0 4rem;
+}
+
+.novedades_titulo{
+    text-align: right;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.novedades-texto{
+    text-align: right;
+    margin-bottom: 2rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 2rem;
+}
+
+.btn{
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+    min-width: 15rem;
+    color: #333;
+    cursor: pointer;
+}
+
+
+
+/* #novedades {
+    position: relative;
     width: 100%;
+} */
+
+/* #novedades .especialista-img {
     width: 100%;
     height: auto;
     display: block;
-    display: block; 
-}
+} */
 
-#novedades .text {
+/* #novedades .text {
     position: absolute;
     top: 5%;
     left: 50%;
@@ -483,20 +517,20 @@ section {
     padding: 20px;
     border-radius: 8px;
 
-}
+} */
 
-#novedades .text h2 {
+/* #novedades .text h2 {
     margin: 0;
     font-size: 2em;
-}
+} */
 
-#novedades .text p {
+/* #novedades .text p {
     margin: 56px 0;
     font-size: 1.2em;
     top: 10%;
-}
+} */
 
-#novedades .buttons {
+/* #novedades .buttons {
     display: grid;
     justify-content: right;
     gap: 50px;
@@ -514,9 +548,9 @@ section {
     z-index: 0;
     border-radius: 12px;
     font-weight: bold;
-}
+} */
 
-.btn::after {
+/* .btn::after {
     content: "";
     z-index: -1;
     position: absolute;
@@ -572,7 +606,7 @@ section {
 .btn:hover {
     color:azure;
     font-weight: bold;
-}
+} */
 
 /* FIN SECCION NOVEDADES*/
 
