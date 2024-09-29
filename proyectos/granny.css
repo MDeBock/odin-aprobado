@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Dr+Sugiyama&family=Noto+Sans+Khojki&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    font-family: "Noto Sans", sans-serif;
+}
+
+body{
+    max-height: 100vh;
+    line-height: 1rem;
+    background-color: rgb(4, 145, 155);
+}
+
+.container{
+    display: flex;
+}
+
+.izquierda{ 
+    text-align: center;
+    color: rgb(4, 145, 155);
+    background-color: white;
+}
+
+.izquierda .titulo{
+    margin: 1rem 0;
+}
+
+.imagen img {
+    width: 30%;
+    margin: 1rem 0;
+}
+
+.izquierda p{
+    width: 60%;
+    margin: 1rem auto;
+    font-size: .8rem;
+    line-height: 1rem;
+    font-weight: bold;
+}
+
+.galeria{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.galeria img{
+    width: 15%;
+    border-radius: 10px;
+}
+
+.derecha{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: .15rem;
+    background-color: white;
+}
+
+.sup{
+    padding: 2rem 3rem;
+    text-align: center;
+    background-color: #545454;
+    font-size: .8rem;
+
+}
+
+.med{
+    background-color: #545454;
+    padding: 2rem 3rem;
+}
+.med h2{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.med ul li{
+    font-size: .75rem;
+}
+
+.inf{
+    background-color: #545454;
+    padding: 2rem 3rem;
+}
+
+.inf h2{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.inf ul li{
+    font-size: .75rem;
+}
+
+.inf p{
+    font-size: .5rem;
+    text-align: right;
+}
