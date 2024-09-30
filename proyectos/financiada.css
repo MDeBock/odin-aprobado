@@ -106,3 +106,68 @@ body{
     font-size: .75rem;
 }
 
+
+/* Responsive para Teléfonos (max-width: 480px) */
+@media screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .izquierda, .derecha {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .titulo img {
+        width: 90%;
+    }
+
+    .galeria img {
+        width: 30%;
+    }
+
+    .sup h2, .sup h3, .med h2, .inf h2 {
+        font-size: 1.2rem;
+    }
+
+    .sup h3 {
+        font-size: 1rem;
+    }
+
+    .med ul li, .inf ul li {
+        font-size: 0.6rem;
+    }
+}
+
+/* Responsive para Tablets (min-width: 481px y max-width: 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .izquierda, .derecha {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .titulo img {
+        width: 80%;
+    }
+
+    .galeria img {
+        width: 20%;
+    }
+
+    .sup h2, .sup h3, .med h2, .inf h2 {
+        font-size: 1.4rem;
+        line-height: 1.2rem;
+    }
+
+    .sup h3 {
+        font-size: 1.2rem;
+    }
+
+    .med ul li, .inf ul li {
+        font-size: 0.8rem;
+    }
+}

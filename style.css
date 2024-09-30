@@ -724,7 +724,7 @@ a {
 /* Resposive design -adaptable a dispositivos mobiles*/
 
 
-@media screen and (max-width: 1220px) {
+/* @media screen and (max-width: 1220px) {
     .nav ul li a i {
         display: none;
     }
@@ -825,5 +825,125 @@ a {
 
     .derechos {
         font-size: small;
+    }
+} */
+
+
+/* Ajustes para tablets: min 780px y max 939px */
+@media screen and (min-width: 780px) and (max-width: 939px) {
+    .header-container {
+        padding: 0.8rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav ul li {
+        margin: 0.5rem 0;
+    }
+
+    .logo img {
+        width: 3.2rem;
+        height: 3.2rem;
+    }
+
+    .datos-construccion-box .numero {
+        font-size: 2.5rem;
+    }
+
+    .nosotros-container .titulo {
+        font-size: 2.2rem;
+    }
+
+    .proyecto-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .servicios-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-data i {
+        font-size: 1.3rem;
+        width: 35px;
+        height: 35px;
+    }
+
+    .footer-data p,
+    a {
+        font-size: 1rem;
+    }
+}
+
+/* Ajustes para celulares: max 767px */
+@media screen and (max-width: 767px) {
+    .header-container {
+        flex-direction: column;
+        padding: 0.5rem;
+    }
+
+    .logo img {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav ul li {
+        margin: 0.3rem 0;
+    }
+
+    .nav ul li a {
+        font-size: 1rem;
+    }
+
+    .presentacion img {
+        width: 90%;
+    }
+
+    .nosotros-img img {
+        width: 20%;
+    }
+
+    .datos-construccion-box .numero {
+        font-size: 2rem;
+    }
+
+    .servicios-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .novedades-conteiner {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-content {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-data i {
+        font-size: 1rem;
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer-data p,
+    a {
+        font-size: 0.8rem;
+    }
+
+    .derechos {
+        font-size: 0.6rem;
     }
 }
