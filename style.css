@@ -825,6 +825,10 @@ a {
 
 @media screen and (max-width: 480px){
 
+    section{
+        min-height: auto;
+    }
+
     .header-container{
         display: flex;
         flex-direction: row-reverse;
@@ -837,7 +841,12 @@ a {
         display: block;
     }
 
+    .presentacion {
+        min-height: auto;
+    }
+
     .presentacion img{
+        margin: 2rem 0;
         width: 100%;
     }
 
@@ -1067,6 +1076,10 @@ a {
         text-decoration: underline;
     }
 
+    .contactanos{
+        min-height: max-content;
+    }
+
     .contacto-container{
         display: none;
     }
@@ -1074,7 +1087,6 @@ a {
     .contacto-container2{
         display: flex;
         flex-direction: column;
-        height: ;
     }
 
     .contacto-container2 h1{
