@@ -107,6 +107,21 @@ body{
 }
 
 
+@media screen and (max-width: 1024px){
+
+    .izquierda{
+        padding: 0;
+    }
+
+    .titulo img{
+        width: 90%;
+    }
+
+    .derecha{
+        width: unset;
+    }
+}
+
 /* Responsive para Teléfonos (max-width: 480px) */
 @media screen and (max-width: 480px) {
     .container {

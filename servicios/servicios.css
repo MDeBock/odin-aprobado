@@ -58,6 +58,18 @@ body {
     float: right;
 }
 
+@media screen and (max-width: 1024px){
+    .izq{
+        width: unset;
+    }
+    .der{
+        width: unset;
+    }
+    .llave-texto{
+        line-height: 1.5rem;
+    }
+}
+
 /* Responsive para teléfonos (max-width: 480px) */
 @media screen and (max-width: 480px) {
     .container {

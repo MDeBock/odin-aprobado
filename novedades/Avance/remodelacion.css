@@ -2,77 +2,75 @@
 
 
 * {
-    margin: 0; 
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body { 
+body {
     min-height: 100vh;
-    background-image:url(./img/remodedecocina/fondo\ remodela\ cocina.png);
+    background-image: url(./img/remodedecocina/fondo\ remodela\ cocina.png);
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Raleway', sans-serif;
 }
 
-.conteiner-remodelacion{
+.conteiner-remodelacion {
     display: flex;
+    flex-direction: row;
+    gap: 2rem;
 }
 
-.izq{
-    width: 60%;
-    padding: 1rem 3rem;
-    /* height: 100vh; */
+.izq {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1rem 2rem;
 }
 
-.titulo-remodelacion{
-    font-size: 1.2rem;
+.titulo-remodelacion {
+    font-size: 1.5rem;
     font-weight: bold;
-    /* padding: 5%; */
     color: #f8b208;
-  
 }
 
-.item-subtitulo{
-    font-size: 2.6rem;
+.item-subtitulo {
+    font-size: 3rem;
     font-weight: 700;
-       
 }
 
-.texto-parrafo{
-    font-size: 19px;
-    line-height: 30px;
-    width: 60%;
+.texto-parrafo {
+    font-size: 1rem;
+    line-height: 1.5rem;
     padding: 1rem 0;
-    
 }
 
-.foto-muestra{
+.foto-muestra {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
+    gap: 2rem;
 }
 
-.foto-muestra img{
+.foto-muestra img {
     width: 9rem;
-    height: 9rem;
-    padding: 0.5rem;
     border-radius: 1rem;
-    
-}
-.derech{
-    width: 40%;
 }
 
-.imagen-derecha img{
-    width: 80%;
-    padding: 1rem 0;
-    
+.derech {
+    width: 100%;
+}
+
+.imagen-derecha {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    min-height: 100vh;
 }
 
 /* Media queries para tablets (481px a 768px) */
 @media screen and (min-width: 481px) and (max-width: 768px) {
+
     .conteiner-remodelacion {
         flex-direction: column;
         padding: 1rem;
@@ -81,17 +79,22 @@ body {
     .izq {
         width: 100%;
         padding: 1rem;
+        align-items: center;
+    }
+
+    .item-subtitulo h2{
+        text-align: center;
+    }
+    
+    .texto-parrafo {
+        width: 100%;
+        font-size: 16px;
+        line-height: 24px;
     }
 
     .derech {
         width: 100%;
         text-align: center;
-    }
-
-    .texto-parrafo {
-        width: 100%;
-        font-size: 16px;
-        line-height: 24px;
     }
 
     .foto-muestra img {
@@ -100,47 +103,60 @@ body {
     }
 
     .imagen-derecha img {
-        width: 60%;
+        width: 100%;
     }
 }
 
 /* Media queries para teléfonos (máx. 480px) */
 @media screen and (max-width: 480px) {
-    .conteiner-remodelacion {
+
+    .conteiner-remodelacion{
+        display: flex;
         flex-direction: column;
-        padding: 0.5rem;
+        gap: 2rem;
+        padding: 2rem 1rem 0;
     }
 
-    .izq {
-        width: 100%;
-        padding: 0.5rem;
+    .izq{
+        padding: 0;
     }
 
-    .derech {
-        width: 100%;
+    .titulo-remodelacion{
+        font-size: 2rem;
         text-align: center;
     }
 
-    .titulo-remodelacion {
-        font-size: 1rem;
+    .item-subtitulo{
+        font-size: 100%;
+        text-align: center;
     }
 
-    .item-subtitulo {
+    .item-subtitulo h2{
         font-size: 2rem;
+        text-decoration: underline
     }
 
-    .texto-parrafo {
+    .texto-parrafo{
+        padding: 0 1rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .foto-muestra{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }    
+
+    .imagen-derecha{
+        display: flex;
+        justify-content: center;
+        min-height: 0;
+    }
+
+    .imagen-derecha img{
         width: 100%;
-        font-size: 14px;
-        line-height: 20px;
     }
 
-    .foto-muestra img {
-        width: 5rem;
-        height: 5rem;
-    }
-
-    .imagen-derecha img {
-        width: 50%;
-    }
+    
 }
