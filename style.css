@@ -34,11 +34,11 @@
 
 .menu-grua ul {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    /*padding: 0;*/
+    /*margin: 0;*/
     position: absolute;
-    top: 100%;
-    left: 0;
+    /* top: 100%; */
+    left: -5rem;
     background: #333;
     display: none;
 }
@@ -776,7 +776,11 @@ a {
     }
 
     .datos-construccion .numero{
-        line-height: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .info{
+        padding: 0 1rem 1rem;
     }
 
     .quienes-somos{
@@ -1088,13 +1092,17 @@ a {
     }
 
     .datos-construccion .numero{
-        line-height: 2rem;
+        line-height: 2.5rem;
     }
 
     .quienes-somos{
         display: flex;
         flex-direction: column;
         text-align: justify;
+    }
+
+    .info{
+        padding: 0 1rem 1rem;
     }
 
     .nosotros-img img{
